@@ -7,7 +7,7 @@ Fully featured boilerplates by nature are opinionated. This is not the goal here
 ## Usage
 1. Git clone https://github.com/Jonathan-Adly/django-boilerplate
 2. docker compose up -d --build
-3. docker compose exec web pyhton manage.py migrate
+3. docker compose exec web python manage.py migrate
 4. Hack away
 
 Don't forget to remove the "home" function in config/urls.py and use your own!
